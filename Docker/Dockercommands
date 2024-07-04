@@ -1,0 +1,20 @@
+#Docker Coammands 
+   docker build . ....>tocheck docker is run tothe system..
+   docker images....> to check the build images on docker..
+   docker run -it "ImageID"....> tinteract mode torun the application
+   docker run -p 8000:8000 -it 'I ID' to hsting to the web application through the container.
+   docker file script :
+   ....................
+   FROM ubuntu 
+   WORKDIR /app
+
+   COPY requirement.txt/app
+   COPY docker file
+
+   RUN apt -get update && /
+   	apt -get install -y python 3 python3-pip
+
+
+   ENTRYPOINT ['python 3']
+   CMD ['manage.py' 'server ' '0.0.0.8000']
+

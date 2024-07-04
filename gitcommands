@@ -1,0 +1,11 @@
+#git commands 
+
+git config --system --list
+git config --list
+git config --global --list
+git config --global user.name "Enter user name "
+git confg  --global user.email"Enter email"
+.............................................
+.............................................
+
+
