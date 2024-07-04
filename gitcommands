@@ -1,0 +1,16 @@
+#!/bin/bash
+# git init
+# git remote add origin "github URL".....>> connect between git and github
+# git pull origin master ................>> access and download file   from  the github repo
+# git add filename ......................>> add single file to the local repo to Index by add command
+# git add . or -A .......................>> add multiple files to Index 
+# git commit -m "comments"...............>> by commit to add file to the git repo  single file
+# git commit -a -m "comments"............>> by commits multiple files to the git repo
+# git status ............................>> status of the git repo files
+# git log ...............................>> creation deatils of the git repo files details.
+# git rm filename.........................>> remove files from git repo
+# git push origin master .................>> push the files to the github repo
+# git pull origin master .................>> pull the files from the github repo
+# git show ...............................>> to show inside data from files.
+
+
