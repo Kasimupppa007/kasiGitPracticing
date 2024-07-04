@@ -7,5 +7,9 @@ git config --global user.name "Enter user name "
 git confg  --global user.email"Enter email"
 .............................................
 .............................................
+git add filename ...> single file add command
+git add . ..........> multiple files add command
+git commit -m "commnets "...> single file commit 
+git commit -a -m "commnets "...>multiple files commit
 
 
